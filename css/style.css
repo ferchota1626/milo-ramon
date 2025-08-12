@@ -1,0 +1,76 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+}
+
+#lol{
+    height: 60px;
+}
+
+#logo img{
+    max-width: 70px;
+}
+
+header{
+    padding-top: 0px;
+    background-color: rgb(148, 25, 25);
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    
+}
+
+#nav__div{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+
+.lista__nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.lista__nav a:hover{
+    text-decoration: underline;
+    color: #aaa;
+}
+
+
+
+
+section{
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(131, 47, 51);
+    border: 2px, black, solid;
+    border-radius: 15px;
+}
+
+.contenedor__texto{
+    color: #fff;
+}
+
+.contenedor__imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    margin: 10px;
+}
+
+.imgen img{
+    padding: 10px;
+    max-width: 150px;
+    max-height: 170px;
+    opacity: 60%;
+    transition: 1s;
+}
+
+.imgen img:hover{
+    opacity: 100%;
+    max-width: 250px;
+    max-height: 270px;
+}
